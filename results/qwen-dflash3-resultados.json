@@ -1,0 +1,102 @@
+[
+  {
+    "case": "code",
+    "seconds": 132.69,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 14536,
+      "prompt_ms": 119203.603,
+      "prompt_per_token_ms": 8.200578082003302,
+      "prompt_per_second": 121.94262282491577,
+      "predicted_n": 512,
+      "predicted_ms": 13463.233,
+      "predicted_per_token_ms": 26.346835616438355,
+      "predicted_per_second": 37.95522219662989,
+      "draft_n": 478,
+      "draft_n_accepted": 351
+    },
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 14536,
+      "total_tokens": 15048,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  {
+    "case": "code-repeat",
+    "seconds": 10.14,
+    "timings": {
+      "cache_n": 14532,
+      "prompt_n": 4,
+      "prompt_ms": 174.635,
+      "prompt_per_token_ms": 43.65875,
+      "prompt_per_second": 22.904915967589545,
+      "predicted_n": 512,
+      "predicted_ms": 9955.758,
+      "predicted_per_token_ms": 19.482892367906068,
+      "predicted_per_second": 51.32708127296787,
+      "draft_n": 481,
+      "draft_n_accepted": 350
+    },
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 14536,
+      "total_tokens": 15048,
+      "prompt_tokens_details": {
+        "cached_tokens": 14532
+      }
+    }
+  },
+  {
+    "case": "tool",
+    "seconds": 4.21,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 292,
+      "prompt_ms": 3125.687,
+      "prompt_per_token_ms": 10.704407534246576,
+      "prompt_per_second": 93.41946266532766,
+      "predicted_n": 38,
+      "predicted_ms": 855.325,
+      "predicted_per_token_ms": 23.116891891891893,
+      "predicted_per_second": 43.25841054569901,
+      "draft_n": 39,
+      "draft_n_accepted": 26
+    },
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 292,
+      "total_tokens": 330,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  {
+    "case": "tool-result",
+    "seconds": 0.63,
+    "timings": {
+      "cache_n": 331,
+      "prompt_n": 18,
+      "prompt_ms": 372.853,
+      "prompt_per_token_ms": 20.714055555555557,
+      "prompt_per_second": 48.276398473393,
+      "predicted_n": 16,
+      "predicted_ms": 253.16,
+      "predicted_per_token_ms": 16.877333333333333,
+      "predicted_per_second": 59.251066519197344,
+      "draft_n": 12,
+      "draft_n_accepted": 12
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 349,
+      "total_tokens": 365,
+      "prompt_tokens_details": {
+        "cached_tokens": 331
+      }
+    }
+  }
+]

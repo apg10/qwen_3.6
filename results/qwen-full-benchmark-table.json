@@ -1,0 +1,65 @@
+[
+  {
+    "mode": "Baseline (fresh)",
+    "input_tps": 368.9801888657689,
+    "first_generation_tps": 34.597765431212736,
+    "cached_generation_tps": 34.977920786440556,
+    "first_request_seconds": 54.19,
+    "cached_request_seconds": 14.79,
+    "draft_acceptance": null
+  },
+  {
+    "mode": "MTP3 (fresh)",
+    "input_tps": 356.79989765321596,
+    "first_generation_tps": 36.00205556941936,
+    "cached_generation_tps": 37.27056901437214,
+    "first_request_seconds": 54.96,
+    "cached_request_seconds": 13.93,
+    "draft_acceptance": 0.7872807017543859
+  },
+  {
+    "mode": "MTP2 (production settings retest)",
+    "input_tps": 368.9312853044664,
+    "first_generation_tps": 48.25183415986239,
+    "cached_generation_tps": 45.177400867211595,
+    "first_request_seconds": 50.02,
+    "cached_request_seconds": 11.51,
+    "draft_acceptance": 0.8636363636363636
+  },
+  {
+    "mode": "MTP2 (earlier)",
+    "input_tps": 367.0743129269629,
+    "first_generation_tps": 42.53075822770418,
+    "cached_generation_tps": 40.269269810963756,
+    "first_request_seconds": 51.64,
+    "cached_request_seconds": 12.89,
+    "draft_acceptance": 0.8636363636363636
+  },
+  {
+    "mode": "DFlash3 (earlier)",
+    "input_tps": 121.94262282491577,
+    "first_generation_tps": 37.95522219662989,
+    "cached_generation_tps": 51.32708127296787,
+    "first_request_seconds": 132.69,
+    "cached_request_seconds": 10.14,
+    "draft_acceptance": 0.7343096234309623
+  },
+  {
+    "mode": "DFlash4 (earlier)",
+    "input_tps": 120.83880686741504,
+    "first_generation_tps": 32.958239330866476,
+    "cached_generation_tps": 51.85618240873895,
+    "first_request_seconds": 135.82,
+    "cached_request_seconds": 10.04,
+    "draft_acceptance": 0.6416083916083916
+  },
+  {
+    "mode": "DFlash8 (earlier)",
+    "input_tps": 127.28725637397764,
+    "first_generation_tps": 24.97859222218453,
+    "cached_generation_tps": 47.35412750993093,
+    "first_request_seconds": 134.68,
+    "cached_request_seconds": 10.98,
+    "draft_acceptance": 0.44568868980963045
+  }
+]

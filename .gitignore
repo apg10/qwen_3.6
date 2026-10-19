@@ -1,0 +1,12 @@
+*.gguf
+*.safetensors
+*.bin
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+*.log
+__pycache__/
+results/local-*
+models/

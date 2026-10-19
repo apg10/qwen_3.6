@@ -1,0 +1,30 @@
+142.47.601.413 I slot print_timing: id  0 | task 41793 | n_gen =    101, tg =  27.71 t/s, tg_3s =  27.99 t/s
+142.49.486.161 I slot print_timing: id  0 | task 41793 | prompt eval time =    2578.06 ms /    89 tokens (   28.97 ms per token,    34.52 tokens per second)
+142.49.486.167 I slot print_timing: id  0 | task 41793 |        eval time =    5493.28 ms /   147 tokens (   37.63 ms per token,    26.58 tokens per second)
+142.49.486.174 I slot print_timing: id  0 | task 41793 | draft acceptance = 0.75424 (   89 accepted /   118 generated), mean len =  2.51
+142.54.231.409 I slot print_timing: id  0 | task 41856 | prompt processing, n_tokens =   1024, progress = 0.99, t =   4.25 s / 240.87 tokens per second
+142.56.257.755 I slot print_timing: id  0 | task 41856 | prompt processing, n_tokens =   1529, progress = 0.99, t =   6.29 s / 242.93 tokens per second
+142.58.302.680 I slot print_timing: id  0 | task 41856 | prompt processing, n_tokens =   2037, progress = 1.00, t =   8.33 s / 244.48 tokens per second
+143.02.635.427 I slot print_timing: id  0 | task 41856 | n_gen =    100, tg =  26.07 t/s, tg_3s =  26.34 t/s
+143.03.094.901 I slot print_timing: id  0 | task 41856 | prompt eval time =    9010.27 ms /  2041 tokens (    4.41 ms per token,   226.52 tokens per second)
+143.03.094.904 I slot print_timing: id  0 | task 41856 |        eval time =    4256.23 ms /   112 tokens (   38.34 ms per token,    26.08 tokens per second)
+143.03.094.911 I slot print_timing: id  0 | task 41856 | draft acceptance = 0.90000 (   72 accepted /    80 generated), mean len =  2.80
+143.09.337.839 I slot print_timing: id  0 | task 41902 | prompt eval time =    3190.40 ms /   401 tokens (    7.96 ms per token,   125.69 tokens per second)
+143.09.337.846 I slot print_timing: id  0 | task 41902 |        eval time =    2679.55 ms /    97 tokens (   27.91 ms per token,    35.83 tokens per second)
+143.09.337.861 I slot print_timing: id  0 | task 41902 | draft acceptance = 0.96970 (   64 accepted /    66 generated), mean len =  2.94
+143.16.420.931 I slot print_timing: id  0 | task 41939 | n_gen =    101, tg =  29.11 t/s, tg_3s =  29.40 t/s
+143.16.608.736 I slot print_timing: id  0 | task 41939 | prompt eval time =    3207.94 ms /   363 tokens (    8.84 ms per token,   113.16 tokens per second)
+143.16.608.741 I slot print_timing: id  0 | task 41939 |        eval time =    3623.06 ms /   102 tokens (   35.87 ms per token,    27.88 tokens per second)
+143.16.608.749 I slot print_timing: id  0 | task 41939 | draft acceptance = 0.97143 (   68 accepted /    70 generated), mean len =  2.94
+143.22.951.840 I slot print_timing: id  0 | task 41977 | prompt eval time =    3097.98 ms /   393 tokens (    7.88 ms per token,   126.86 tokens per second)
+143.22.951.845 I slot print_timing: id  0 | task 41977 |        eval time =    2878.29 ms /   103 tokens (   28.22 ms per token,    35.44 tokens per second)
+143.22.951.852 I slot print_timing: id  0 | task 41977 | draft acceptance = 0.95714 (   67 accepted /    70 generated), mean len =  2.91
+143.27.277.637 I slot print_timing: id  0 | task 42015 | prompt processing, n_tokens =    806, progress = 1.00, t =   3.75 s / 215.00 tokens per second
+143.30.894.138 I slot print_timing: id  0 | task 42015 | n_gen =    104, tg =  33.56 t/s, tg_3s =  33.89 t/s
+143.33.962.695 I slot print_timing: id  0 | task 42015 | n_gen =    200, tg =  32.42 t/s, tg_3s =  31.29 t/s
+143.36.986.487 I slot print_timing: id  0 | task 42015 | n_gen =    299, tg =  32.53 t/s, tg_3s =  32.74 t/s
+143.39.992.435 I slot print_timing: id  0 | task 42015 | n_gen =    398, tg =  32.63 t/s, tg_3s =  32.93 t/s
+143.43.314.564 I slot print_timing: id  0 | task 42015 | n_gen =    488, tg =  31.44 t/s, tg_3s =  27.09 t/s
+143.44.771.210 I slot print_timing: id  0 | task 42015 | prompt eval time =    4457.30 ms /   810 tokens (    5.50 ms per token,   181.72 tokens per second)
+143.44.771.223 I slot print_timing: id  0 | task 42015 |        eval time =   16946.10 ms /   527 tokens (   32.22 ms per token,    31.04 tokens per second)
+143.44.771.232 I slot print_timing: id  0 | task 42015 | draft acceptance = 0.73364 (  314 accepted /   428 generated), mean len =  2.47

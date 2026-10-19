@@ -1,0 +1,53 @@
+{
+  "context": 131072,
+  "prompt_tokens": 14536,
+  "output_tokens_per_code_case": 512,
+  "main_quantization": "Q4_K_M",
+  "draft_quantization": "Q8_0",
+  "mtp_microbatch": 512,
+  "dflash_microbatch": 128,
+  "same_expert_placement": true,
+  "results": [
+    {
+      "mode": "mtp3-dflash-control",
+      "cold_tps": 37.992093332372754,
+      "warm_tps": 36.31318681045362,
+      "prompt_tps": 359.01084115923953,
+      "cold_request_seconds": 55.41,
+      "warm_request_seconds": 14.3,
+      "tool_checks_passed": true
+    },
+    {
+      "mode": "dflash3",
+      "cold_tps": 37.95522219662989,
+      "warm_tps": 51.32708127296787,
+      "prompt_tps": 121.94262282491577,
+      "cold_request_seconds": 132.69,
+      "warm_request_seconds": 10.14,
+      "tool_checks_passed": true
+    },
+    {
+      "mode": "dflash4",
+      "cold_tps": 32.958239330866476,
+      "warm_tps": 51.85618240873895,
+      "prompt_tps": 120.83880686741504,
+      "cold_request_seconds": 135.82,
+      "warm_request_seconds": 10.04,
+      "tool_checks_passed": true
+    },
+    {
+      "mode": "dflash8",
+      "cold_tps": 24.97859222218453,
+      "warm_tps": 47.35412750993093,
+      "prompt_tps": 127.28725637397764,
+      "cold_request_seconds": 134.68,
+      "warm_request_seconds": 10.98,
+      "tool_checks_passed": true
+    }
+  ],
+  "decision": "Retain MTP3 default; DFlash3 optional for cached prompts. Single cold and warm sample per mode, not full-context benchmark.",
+  "streaming_reasoning_tools_passed": true,
+  "vision_passed": false,
+  "vision_error": "HTTP500: draft sequence KV positions inconsistent during image input",
+  "block_size_explanation": "Trained limit16. Ordinary DFlash runtime block=n_max+1 including anchor; n_max7 gives total block8. Metadata is not changed."
+}

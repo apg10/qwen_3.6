@@ -1,0 +1,206 @@
+[
+  {
+    "source_basename": "medicion-hilos-ollama.json",
+    "source_sha256": "f3dd369a6f391f16f8b69af566a9902f10125844101f477fd4d61e95f32531e0",
+    "export": "results/medicion-hilos-ollama.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "prueba-bonsai-kv-ram.json",
+    "source_sha256": "55cde3670f2e30edbba197e80530bc8f98be81853713c08fa38d2b5734f79c98",
+    "export": "results/prueba-bonsai-kv-ram.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "pruebas-bonsai-128k.json",
+    "source_sha256": "0f8298d3ba2044a2aaa2cee3acf5c7061064548bd743133ecf394ef5005a9ab4",
+    "export": "results/pruebas-bonsai-128k.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "pruebas-bonsai-kv-ram.json",
+    "source_sha256": "69799db985a2ca3cadaf4395bab1a1eea842e8b931de3b03363917404a837dd8",
+    "export": "results/pruebas-bonsai-kv-ram.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "pruebas-bonsai.json",
+    "source_sha256": "0f8298d3ba2044a2aaa2cee3acf5c7061064548bd743133ecf394ef5005a9ab4",
+    "export": "results/pruebas-bonsai.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "pruebas-tools-qwen.json",
+    "source_sha256": "4f160e5fc7aab7ea0d6207988cd8078a9c51bd74accf4fbbe4cc32776852f832",
+    "export": "results/pruebas-tools-qwen.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-baseline-resultados.json",
+    "source_sha256": "54e2a45a721f74f086ed914fb34d0d0ae2986a5f26226af7d251e1128980525b",
+    "export": "results/qwen-baseline-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-baseline-retest-resultados.json",
+    "source_sha256": "9da11b914c0512a2a7b84c8cf14ad1db20df7271b6a277e0b21f04769e3b2699",
+    "export": "results/qwen-baseline-retest-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-cuda-baseline-resultados.json",
+    "source_sha256": "8977cb72a99df3f5e51f2b8d0d3b2c0c80649f65fbb48713d29ce08658d15bb7",
+    "export": "results/qwen-cuda-baseline-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-cuda4-baseline-long-resultados.json",
+    "source_sha256": "e084dbb4d0921cd67afbb86d5b15e162cf89615f43c17254c65a90031d8781aa",
+    "export": "results/qwen-cuda4-baseline-long-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-cuda4-baseline-resultados.json",
+    "source_sha256": "d2b11a67c6ca2f98cb10ff94c0f3fb2f285d850fec5e7ed1a625c37e84999bc0",
+    "export": "results/qwen-cuda4-baseline-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-cuda4-mtp2-long-resultados.json",
+    "source_sha256": "b56ab5d572cc448069724fdb5ce39311b1b5d03692d9a0e938fd97bda4038b0a",
+    "export": "results/qwen-cuda4-mtp2-long-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-cuda4-mtp3-long-resultados.json",
+    "source_sha256": "d6b2f613e1719b2fffc0ed592a57ea15fde80175c25d7fb12aa8bad3b52d836b",
+    "export": "results/qwen-cuda4-mtp3-long-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-cuda4-mtp3-resultados.json",
+    "source_sha256": "6a23eab9952c344b16bad4886ec3aa96fd46dc1e7f1f97672f5812ea6c7620c0",
+    "export": "results/qwen-cuda4-mtp3-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-dflash-comparison.json",
+    "source_sha256": "6d1eb7e5036a8f81ac468ed1421f24d5a7d44b93b78bf34e384ca67d608b84f8",
+    "export": "results/qwen-dflash-comparison.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-dflash-stream-thinking.json",
+    "source_sha256": "ad09e8e300a702ddaa89884bf88877bd2a7eb22c7edeeeed81063f3456a92ce8",
+    "export": "results/qwen-dflash-stream-thinking.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-dflash3-resultados.json",
+    "source_sha256": "c9d4a1e9e3f2e840a7ebb2e348f355ef60105eaf419cb278fa3b17a7d7795781",
+    "export": "results/qwen-dflash3-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-dflash4-resultados.json",
+    "source_sha256": "24ba58615a1b049913cd24e4c093d440b8e58501a174a80444588ad98191ff19",
+    "export": "results/qwen-dflash4-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-dflash8-resultados.json",
+    "source_sha256": "712fa82a9b91c26fab966af03fde96678492037e10368355d62e4fe3e6354c95",
+    "export": "results/qwen-dflash8-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-full-benchmark-table.json",
+    "source_sha256": "3744e473745a58ae2057d65170f511c60956ffccff27353e8178102ebc6fee99",
+    "export": "results/qwen-full-benchmark-table.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-gpu-baseline-resultados.json",
+    "source_sha256": "da1800ec3974c9cfb632f38c7c7a71bf5cff766d44eff9f7610e509dd172ab3c",
+    "export": "results/qwen-gpu-baseline-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp-compatibilidad.json",
+    "source_sha256": "c8454af69eb0d6637ab87f5008d0d2bfc73e516ce0c746c1a54e6910a3ace670",
+    "export": "results/qwen-mtp-compatibilidad.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp-stream-thinking.json",
+    "source_sha256": "1d2a8c16820d701dc21918f8d61dbbdb7076287f328d37a23ebde8caf0114cbd",
+    "export": "results/qwen-mtp-stream-thinking.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp2-retest-resultados.json",
+    "source_sha256": "eafb7631bac6008505b615360dc8e7f4c776b666dd18f2f0c77c6a65dc984eba",
+    "export": "results/qwen-mtp2-retest-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp2-vision.json",
+    "source_sha256": "f8598c4a8ba68f8763425dc4a26fd6060dfd11407fe569e3d20813111bf8d509",
+    "export": "results/qwen-mtp2-vision.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp2-vs-mtp3.json",
+    "source_sha256": "ffd80e95abe42f8c0797d9c5601767f82d720a53c441e4c789a0f426747c212e",
+    "export": "results/qwen-mtp2-vs-mtp3.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-baseline-retest-resultados.json",
+    "source_sha256": "19c4dc2133fe7cef8c0cd34a1e1f4f79c0097b0b4fdfc11d5cc3f394ef81cd38",
+    "export": "results/qwen-mtp3-baseline-retest-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-comparacion-larga.json",
+    "source_sha256": "f7a1a60295ac7901905750a0f625ea3b5f377d147bb2a2f5ec68528f55728ce6",
+    "export": "results/qwen-mtp3-comparacion-larga.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-comparacion.json",
+    "source_sha256": "764726af2a7ac89c178a71302d60ca5637a5c6a5f7cb2e0b9e277956971b3fa4",
+    "export": "results/qwen-mtp3-comparacion.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-dflash-control-resultados.json",
+    "source_sha256": "ba7e505ab9cd0505a75caaf18f3adc491db15af8a8d850666341b226dc5708e0",
+    "export": "results/qwen-mtp3-dflash-control-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-norms-resultados.json",
+    "source_sha256": "0ce7cff96b05819f893e8ae2a8f8344612004c4a9aa2184c5ab01f884823318e",
+    "export": "results/qwen-mtp3-norms-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-resultados.json",
+    "source_sha256": "8a24960acfad7a93f899f89514c9f353da5e7b4621012958b9c349af345b2d7f",
+    "export": "results/qwen-mtp3-resultados.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "qwen-mtp3-vision.json",
+    "source_sha256": "4e077432cca6e961bcd5064c9a58592cd2132eb8ee27bb7ffa3955ffca24557a",
+    "export": "results/qwen-mtp3-vision.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  },
+  {
+    "source_basename": "strata-prueba-generacion.json",
+    "source_sha256": "8e96cf0f9ed7bbca21093edf8d6af7b9ec1ea9080e6ad6fb49ba732aca808837",
+    "export": "results/strata-prueba-generacion.json",
+    "transformation": "Recursive removal of response/prompt/project-content fields and local home paths; numerical timings retained."
+  }
+]

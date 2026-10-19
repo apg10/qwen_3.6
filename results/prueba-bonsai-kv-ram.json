@@ -1,0 +1,26 @@
+{
+  "created": 1792207009,
+  "model": "bonsai2-27b-ptq1",
+  "system_fingerprint": "b10777-e3de71522",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 256,
+    "prompt_tokens": 3496,
+    "total_tokens": 3752,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-aLOaAfNMYmeqqRdG3EkZbS6NlNDN3oy0",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3496,
+    "prompt_ms": 6839.157,
+    "prompt_per_token_ms": 1.9562806064073226,
+    "prompt_per_second": 511.17411107830975,
+    "predicted_n": 256,
+    "predicted_ms": 19105.476,
+    "predicted_per_token_ms": 74.92343529411764,
+    "predicted_per_second": 13.346958746277771
+  }
+}

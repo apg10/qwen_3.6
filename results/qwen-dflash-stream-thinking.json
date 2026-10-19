@@ -1,0 +1,25 @@
+[
+  {
+    "step": 1,
+    "finish": "tool_calls",
+    "reasoning_chars": 337,
+    "calls": [
+      {
+        "id": "96o1e47Rya8Ly2ggSajYr0DYf5FIQcwt",
+        "type": "function",
+        "function": {
+          "name": "sumar",
+          "arguments": "{\"a\":17,\"b\":25}"
+        }
+      }
+    ],
+    "seconds": 3.79
+  },
+  {
+    "step": 2,
+    "finish": "stop",
+    "reasoning_chars": 93,
+    "calls": [],
+    "seconds": 1.14
+  }
+]

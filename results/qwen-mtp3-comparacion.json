@@ -1,0 +1,47 @@
+[
+  {
+    "case": "code",
+    "baseline_tps": 43.45432209468237,
+    "mtp3_tps": 27.515621049687493,
+    "gain_percent": -36.67920767528287,
+    "accepted": 180,
+    "drafted": 224,
+    "text_identical": false
+  },
+  {
+    "case": "explanation",
+    "baseline_tps": 42.018863009114135,
+    "mtp3_tps": 46.02389632891744,
+    "gain_percent": 9.531512832545207,
+    "accepted": 167,
+    "drafted": 261,
+    "text_identical": false
+  },
+  {
+    "case": "code-repeat",
+    "baseline_tps": 43.18726778375474,
+    "mtp3_tps": 53.948604116892035,
+    "gain_percent": 24.91784473845613,
+    "accepted": 180,
+    "drafted": 224,
+    "text_identical": false
+  },
+  {
+    "case": "tool",
+    "baseline_tps": 43.363965482283476,
+    "mtp3_tps": 49.352087126441376,
+    "gain_percent": 13.808980746016818,
+    "accepted": 30,
+    "drafted": 30,
+    "text_identical": true
+  },
+  {
+    "case": "tool-result",
+    "baseline_tps": 41.08238387379492,
+    "mtp3_tps": 43.21346877394747,
+    "gain_percent": 5.18734479162466,
+    "accepted": 13,
+    "drafted": 15,
+    "text_identical": true
+  }
+]

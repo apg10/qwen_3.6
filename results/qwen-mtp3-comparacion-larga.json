@@ -1,0 +1,38 @@
+[
+  {
+    "case": "code",
+    "baseline_tps": 40.980641899602716,
+    "mtp3_tps": 51.40145927837581,
+    "gain_percent": 25.42863385181411,
+    "accepted": 359,
+    "drafted": 456,
+    "text_identical": false
+  },
+  {
+    "case": "code-repeat",
+    "baseline_tps": 41.31056180908894,
+    "mtp3_tps": 51.29526053876687,
+    "gain_percent": 24.169844931717076,
+    "accepted": 359,
+    "drafted": 456,
+    "text_identical": false
+  },
+  {
+    "case": "tool",
+    "baseline_tps": 44.995798365314805,
+    "mtp3_tps": 47.00812351193879,
+    "gain_percent": 4.472251231739888,
+    "accepted": 30,
+    "drafted": 30,
+    "text_identical": true
+  },
+  {
+    "case": "tool-result",
+    "baseline_tps": 44.607940808236414,
+    "mtp3_tps": 39.68589933539347,
+    "gain_percent": -11.034002878550575,
+    "accepted": 13,
+    "drafted": 15,
+    "text_identical": true
+  }
+]

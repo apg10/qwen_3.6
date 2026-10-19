@@ -1,0 +1,18 @@
+[Unit]
+Description=Qwen3.6 MTP2 for OpenCode
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+# Replace these two paths with the clone location.
+WorkingDirectory=%h/qwen-local-inference-lab
+EnvironmentFile=%h/.config/qwen-local-inference-lab/model.env
+ExecStart=/bin/bash %h/qwen-local-inference-lab/scripts/serve.sh mtp2
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=30
+KillMode=control-group
+
+[Install]
+WantedBy=default.target

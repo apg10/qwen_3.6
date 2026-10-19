@@ -1,0 +1,27 @@
+{
+  "id": "chatcmpl-8ae398e3467c4a0b94d8ca57",
+  "object": "chat.completion",
+  "created": 1791199878,
+  "model": "qwen3.6-agente-strata",
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 384,
+    "total_tokens": 435,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 51,
+    "prompt_ms": 625.5,
+    "prompt_per_token_ms": 12.265,
+    "prompt_per_second": 81.5,
+    "predicted_n": 384,
+    "predicted_ms": 8502.0,
+    "predicted_per_token_ms": 22.141,
+    "predicted_per_second": 45.2,
+    "draft_n": 15,
+    "draft_n_accepted": 0
+  }
+}

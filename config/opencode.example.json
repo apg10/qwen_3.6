@@ -1,0 +1,128 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "llamacpp-mtp2/qwen3.6-mtp2",
+  "provider": {
+    "llamacpp-mtp": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Qwen 3.6 — llama.cpp MTP3",
+      "options": {
+        "baseURL": "http://127.0.0.1:8083/v1",
+        "timeout": 1800000,
+        "headerTimeout": 1800000,
+        "chunkTimeout": 1800000
+      },
+      "models": {
+        "qwen3.6-mtp3": {
+          "id": "qwen36-mtp-test",
+          "name": "Qwen 3.6 Q4 — MTP 3 drafts",
+          "reasoning": true,
+          "tool_call": true,
+          "temperature": true,
+          "attachment": true,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 131072,
+            "output": 32768
+          },
+          "variants": {
+            "high": {},
+            "medium": {}
+          }
+        }
+      }
+    },
+    "llamacpp-mtp2": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Qwen 3.6 — MTP2",
+      "options": {
+        "baseURL": "http://127.0.0.1:8084/v1",
+        "timeout": 1800000,
+        "headerTimeout": 1800000,
+        "chunkTimeout": 1800000
+      },
+      "models": {
+        "qwen3.6-mtp2": {
+          "id": "qwen36-mtp2",
+          "name": "Qwen 3.6 Q4 — MTP 2 drafts",
+          "reasoning": true,
+          "tool_call": true,
+          "temperature": true,
+          "attachment": true,
+          "modalities": {
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 131072,
+            "output": 32768
+          },
+          "variants": {
+            "high": {},
+            "medium": {}
+          }
+        }
+      }
+    },
+    "llamacpp-dflash4": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Qwen 3.6 — DFLASH4",
+      "options": {
+        "baseURL": "http://127.0.0.1:8085/v1",
+        "timeout": 1800000,
+        "headerTimeout": 1800000,
+        "chunkTimeout": 1800000
+      },
+      "models": {
+        "qwen3.6-dflash4": {
+          "id": "qwen36-dflash4",
+          "name": "Qwen 3.6 Q4 — DFlash 4 drafts (experimental, text only)",
+          "reasoning": true,
+          "tool_call": true,
+          "temperature": true,
+          "attachment": false,
+          "modalities": {
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 131072,
+            "output": 32768
+          },
+          "variants": {
+            "high": {},
+            "medium": {}
+          }
+        }
+      }
+    }
+  },
+  "agent": {
+    "build": {
+      "model": "llamacpp-mtp2/qwen3.6-mtp2",
+      "steps": 80
+    }
+  },
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "tail_turns": 15,
+    "reserved": 12000
+  }
+}

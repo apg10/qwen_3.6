@@ -1,0 +1,68 @@
+[
+  {
+    "run": 1,
+    "threads_requested": 16,
+    "generated": 256,
+    "generation_tps": 41.05,
+    "prompt_tokens": 4143,
+    "prompt_seconds": 10.77,
+    "load_seconds": 30.01,
+    "wall_seconds": 47.06,
+    "finish": "length"
+  },
+  {
+    "run": 2,
+    "threads_requested": 8,
+    "generated": 256,
+    "generation_tps": 41.03,
+    "prompt_tokens": 4143,
+    "prompt_seconds": 10.79,
+    "load_seconds": 28.62,
+    "wall_seconds": 45.66,
+    "finish": "length"
+  },
+  {
+    "run": 3,
+    "threads_requested": 12,
+    "generated": 256,
+    "generation_tps": 41.86,
+    "prompt_tokens": 4143,
+    "prompt_seconds": 10.79,
+    "load_seconds": 28.67,
+    "wall_seconds": 45.6,
+    "finish": "length"
+  },
+  {
+    "run": 4,
+    "threads_requested": 12,
+    "generated": 256,
+    "generation_tps": 41.94,
+    "prompt_tokens": 4143,
+    "prompt_seconds": 0.11,
+    "load_seconds": 0.0,
+    "wall_seconds": 6.23,
+    "finish": "length"
+  },
+  {
+    "run": 5,
+    "threads_requested": 8,
+    "generated": 256,
+    "generation_tps": 40.79,
+    "prompt_tokens": 4143,
+    "prompt_seconds": 10.8,
+    "load_seconds": 28.4,
+    "wall_seconds": 45.49,
+    "finish": "length"
+  },
+  {
+    "run": 6,
+    "threads_requested": 16,
+    "generated": 256,
+    "generation_tps": 40.59,
+    "prompt_tokens": 4143,
+    "prompt_seconds": 10.77,
+    "load_seconds": 28.72,
+    "wall_seconds": 45.81,
+    "finish": "length"
+  }
+]

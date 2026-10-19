@@ -1,0 +1,232 @@
+{
+  "metadata_changed": [
+    "qwen35moe.attention.head_count_kv",
+    "qwen35moe.block_count",
+    "qwen35moe.nextn_predict_layers"
+  ],
+  "renames": [
+    [
+      "blk.0.ssm_dt",
+      "blk.0.ssm_dt.bias"
+    ],
+    [
+      "blk.1.ssm_dt",
+      "blk.1.ssm_dt.bias"
+    ],
+    [
+      "blk.2.ssm_dt",
+      "blk.2.ssm_dt.bias"
+    ],
+    [
+      "blk.4.ssm_dt",
+      "blk.4.ssm_dt.bias"
+    ],
+    [
+      "blk.5.ssm_dt",
+      "blk.5.ssm_dt.bias"
+    ],
+    [
+      "blk.6.ssm_dt",
+      "blk.6.ssm_dt.bias"
+    ],
+    [
+      "blk.8.ssm_dt",
+      "blk.8.ssm_dt.bias"
+    ],
+    [
+      "blk.9.ssm_dt",
+      "blk.9.ssm_dt.bias"
+    ],
+    [
+      "blk.10.ssm_dt",
+      "blk.10.ssm_dt.bias"
+    ],
+    [
+      "blk.12.ssm_dt",
+      "blk.12.ssm_dt.bias"
+    ],
+    [
+      "blk.13.ssm_dt",
+      "blk.13.ssm_dt.bias"
+    ],
+    [
+      "blk.14.ssm_dt",
+      "blk.14.ssm_dt.bias"
+    ],
+    [
+      "blk.16.ssm_dt",
+      "blk.16.ssm_dt.bias"
+    ],
+    [
+      "blk.17.ssm_dt",
+      "blk.17.ssm_dt.bias"
+    ],
+    [
+      "blk.18.ssm_dt",
+      "blk.18.ssm_dt.bias"
+    ],
+    [
+      "blk.20.ssm_dt",
+      "blk.20.ssm_dt.bias"
+    ],
+    [
+      "blk.21.ssm_dt",
+      "blk.21.ssm_dt.bias"
+    ],
+    [
+      "blk.22.ssm_dt",
+      "blk.22.ssm_dt.bias"
+    ],
+    [
+      "blk.24.ssm_dt",
+      "blk.24.ssm_dt.bias"
+    ],
+    [
+      "blk.25.ssm_dt",
+      "blk.25.ssm_dt.bias"
+    ],
+    [
+      "blk.26.ssm_dt",
+      "blk.26.ssm_dt.bias"
+    ],
+    [
+      "blk.28.ssm_dt",
+      "blk.28.ssm_dt.bias"
+    ],
+    [
+      "blk.29.ssm_dt",
+      "blk.29.ssm_dt.bias"
+    ],
+    [
+      "blk.30.ssm_dt",
+      "blk.30.ssm_dt.bias"
+    ],
+    [
+      "blk.32.ssm_dt",
+      "blk.32.ssm_dt.bias"
+    ],
+    [
+      "blk.33.ssm_dt",
+      "blk.33.ssm_dt.bias"
+    ],
+    [
+      "blk.34.ssm_dt",
+      "blk.34.ssm_dt.bias"
+    ],
+    [
+      "blk.36.ssm_dt",
+      "blk.36.ssm_dt.bias"
+    ],
+    [
+      "blk.37.ssm_dt",
+      "blk.37.ssm_dt.bias"
+    ],
+    [
+      "blk.38.ssm_dt",
+      "blk.38.ssm_dt.bias"
+    ],
+    [
+      "mtp.fc.weight",
+      "blk.40.nextn.eh_proj.weight"
+    ],
+    [
+      "mtp.layers.0.attn_k.weight",
+      "blk.40.attn_k.weight"
+    ],
+    [
+      "mtp.layers.0.attn_k_norm.weight",
+      "blk.40.attn_k_norm.weight"
+    ],
+    [
+      "mtp.layers.0.attn_norm.weight",
+      "blk.40.attn_norm.weight"
+    ],
+    [
+      "mtp.layers.0.attn_output.weight",
+      "blk.40.attn_output.weight"
+    ],
+    [
+      "mtp.layers.0.attn_q.weight",
+      "blk.40.attn_q.weight"
+    ],
+    [
+      "mtp.layers.0.attn_q_norm.weight",
+      "blk.40.attn_q_norm.weight"
+    ],
+    [
+      "mtp.layers.0.attn_v.weight",
+      "blk.40.attn_v.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_down_exps.weight",
+      "blk.40.ffn_down_exps.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_down_shexp.weight",
+      "blk.40.ffn_down_shexp.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_gate_exps.weight",
+      "blk.40.ffn_gate_exps.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_gate_inp.weight",
+      "blk.40.ffn_gate_inp.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_gate_inp_shexp.weight",
+      "blk.40.ffn_gate_inp_shexp.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_gate_shexp.weight",
+      "blk.40.ffn_gate_shexp.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_up_exps.weight",
+      "blk.40.ffn_up_exps.weight"
+    ],
+    [
+      "mtp.layers.0.ffn_up_shexp.weight",
+      "blk.40.ffn_up_shexp.weight"
+    ],
+    [
+      "mtp.layers.0.post_attention_norm.weight",
+      "blk.40.post_attention_norm.weight"
+    ],
+    [
+      "mtp.norm.weight",
+      "blk.40.nextn.shared_head_norm.weight"
+    ],
+    [
+      "mtp.pre_fc_norm_embedding.weight",
+      "blk.40.nextn.enorm.weight"
+    ],
+    [
+      "mtp.pre_fc_norm_hidden.weight",
+      "blk.40.nextn.hnorm.weight"
+    ]
+  ],
+  "source_data_offset": 12009280,
+  "copy_data_offset": 12009408,
+  "weight_data_sha256": "f4a646e3e2f4f47b52d62edd1b107d40d44896ae637fc6e8c918f87d55a522ce",
+  "weights_unchanged": false,
+  "main_quantized_weights_unchanged": true,
+  "mtp_norm_conversions": [
+    {
+      "source_tensor": "mtp.pre_fc_norm_embedding.weight",
+      "operation": "F32 RMSNorm weight + 1, per upstream Qwen conversion",
+      "bytes": 8192,
+      "source_sha256": "1270f06407b20678147853a67e50014f0805b2b031e684a61e4a4a98a07ca0e0",
+      "converted_sha256": "0a4310389073ed444876ec823dd27ca3029dc30aeb84487a13b6de4b90ed7717",
+      "data_offset": 22329090560
+    },
+    {
+      "source_tensor": "mtp.pre_fc_norm_hidden.weight",
+      "operation": "F32 RMSNorm weight + 1, per upstream Qwen conversion",
+      "bytes": 8192,
+      "source_sha256": "2caa58c2cfaef487c7e11a4e27143d3f8f67c2c8be919a39f4ef3f3bb0a3a4c4",
+      "converted_sha256": "6dda2c53989ed9a86757bdccf4427ac84f38c85a1850f5fe04ba5fbdfcb20a1b",
+      "data_offset": 22329098752
+    }
+  ]
+}

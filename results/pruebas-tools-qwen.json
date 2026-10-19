@@ -1,0 +1,57 @@
+[
+  {
+    "case": "corta",
+    "max_tokens": 512,
+    "finish": "tool_calls",
+    "calls": 1,
+    "json_valid": true,
+    "content_lines": [
+      8
+    ],
+    "usage": {
+      "prompt_tokens": 444,
+      "completion_tokens": 185,
+      "total_tokens": 629,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "seconds": 7.66
+  },
+  {
+    "case": "truncada",
+    "max_tokens": 96,
+    "finish": "length",
+    "calls": 0,
+    "json_valid": true,
+    "content_lines": [],
+    "usage": {
+      "prompt_tokens": 1740,
+      "completion_tokens": 96,
+      "total_tokens": 1836,
+      "prompt_tokens_details": {
+        "cached_tokens": 260
+      }
+    },
+    "seconds": 5.84
+  },
+  {
+    "case": "por_bloques",
+    "max_tokens": 512,
+    "finish": "tool_calls",
+    "calls": 1,
+    "json_valid": true,
+    "content_lines": [
+      8
+    ],
+    "usage": {
+      "prompt_tokens": 1768,
+      "completion_tokens": 185,
+      "total_tokens": 1953,
+      "prompt_tokens_details": {
+        "cached_tokens": 260
+      }
+    },
+    "seconds": 7.92
+  }
+]

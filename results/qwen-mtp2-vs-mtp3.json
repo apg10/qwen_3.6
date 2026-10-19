@@ -1,0 +1,22 @@
+{
+  "selected_drafts": 3,
+  "rows": [
+    {
+      "case": "code",
+      "input_tokens": 14536,
+      "baseline_tps": 40.980641899602716,
+      "mtp2_tps": 42.53075822770418,
+      "mtp3_tps": 51.40145927837581
+    },
+    {
+      "case": "code-repeat",
+      "input_tokens": 14536,
+      "baseline_tps": 41.31056180908894,
+      "mtp2_tps": 40.269269810963756,
+      "mtp3_tps": 51.29526053876687
+    }
+  ],
+  "streaming_thinking_tools_passed": true,
+  "vision_known_answer_passed": true,
+  "opencode_native_bash_smoke_passed": true
+}
