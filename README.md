@@ -1,4 +1,6 @@
-# Qwen Local Inference Lab
+# qwen_3.6 — Qwen Local Inference Lab
+
+Qwen 3.6 lab.
 
 Configuración, experimentos y resultados de **Qwen3.6-35B-A3B Q4_K_M en OpenCode**, ejecutado en un laptop con RTX 5070 de 8 GB y 32 GB de RAM.
 
